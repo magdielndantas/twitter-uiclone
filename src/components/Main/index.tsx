@@ -12,6 +12,8 @@ import {
     EmailIcon
 } from './styles';
 
+import ProfilePage from '../ProfilePage'
+
 const Main: React.FC = () => {
   return (
     <Container>
@@ -24,16 +26,16 @@ const Main: React.FC = () => {
                 <strong>Magdiel Dantas</strong>
                 <span>2400 Tweets</span>
             </ProfileInfo>
-
-            {/* <ProfilePage/> */}
-
-            <BottomMenu>
-                <HomeIcon/>
-                <SearchIcon/>
-                <BellIcon/>
-                <EmailIcon/>
-            </BottomMenu>
         </Header>
+        
+        <ProfilePage/> 
+
+        <BottomMenu>
+            <HomeIcon/>
+            <SearchIcon/>
+            <BellIcon/>
+            <EmailIcon/>
+        </BottomMenu>
     </Container>
   );
 }
