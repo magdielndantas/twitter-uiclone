@@ -1,5 +1,5 @@
 {
-  "name": "twitter-clone",
+  "name": "clone-twitter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "@types/react-dom": "^16.9.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1",
+    "react-scripts": "3.4.1",
     "react-sticky-box": "^0.9.3",
     "styled-components": "^5.1.1",
     "styled-icons": "^10.6.0",
@@ -40,6 +40,6 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.1"
+    "@types/styled-components": "^5.1.0"
   }
 }

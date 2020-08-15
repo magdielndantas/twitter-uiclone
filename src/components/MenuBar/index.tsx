@@ -1,10 +1,10 @@
 import React from 'react';
 
-import Button from '../Button'
+import Button from '../Button';
 
 import {
     Container,
-    TopSide,
+    Topside,
     Logo,
     MenuButton,
     HomeIcon,
@@ -12,17 +12,18 @@ import {
     EmailIcon,
     FavoriteIcon,
     ProfileIcon,
-    BotSide,
+    Botside,
     Avatar,
     ProfileData,
-    ExitIcon
+    ExitIcon,
 } from './styles';
 
 const MenuBar: React.FC = () => {
     return (
         <Container>
-            <TopSide>
+            <Topside>
                 <Logo />
+
                 <MenuButton>
                     <HomeIcon />
                     <span>Página Inicial</span>
@@ -51,20 +52,20 @@ const MenuBar: React.FC = () => {
                 <Button>
                     <span>Tweetar</span>
                 </Button>
-            </TopSide>
+            </Topside>
 
-            <BotSide>
+            <Botside>
                 <Avatar />
 
                 <ProfileData>
-                    <strong>Magdiel</strong>
+                    <strong>Magdiel Dantas</strong>
                     <span>@magdielndantas</span>
                 </ProfileData>
 
                 <ExitIcon />
-            </BotSide>
+            </Botside>
         </Container>
     );
-}
+};
 
 export default MenuBar;

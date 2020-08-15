@@ -22,8 +22,8 @@ const Tweet: React.FC = () => {
     return (
         <Container>
             <Retweeted>
-                Você retweetou
                 <RocketseatIcon />
+                Você retweetou
             </Retweeted>
 
             <Body>
